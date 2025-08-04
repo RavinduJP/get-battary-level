@@ -11,8 +11,7 @@ class _BatteryScreenState extends State<BatteryScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SizedBox(
-        height: 500,
+      body:  Container(
         child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
